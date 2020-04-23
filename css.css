@@ -1,16 +1,40 @@
 
-    button {  		outline: none;  	}    
-        #info {  		padding-left: 0;  		padding-right: 0;  	}  	#fp,
-       #fp-0 {  		max-width: 250px;  		padding-left: 15px;  		padding-right: 15px;  	}    	
+    button 
+    {  		
+      outline: none;  	
+    }    
+      #info
+        {  		
+          padding-left: 0;  		
+          padding-right: 0;  
+        }  	
+        #fp,
+      #fp-0 
+       {  		
+         max-width: 250px;  		
+         padding-left: 15px;  		
+         padding-right: 15px;  	
+        }    	
        
     .head-info__list 
-    {  		margin: 0;      list-style-type: none;      float: center;    	font-size: 15px;    	line-height: 1.45;    	color: #000;  	}    	
+    {  		
+      margin: 0;      
+      list-style-type: none;      
+      float: center;    	
+      font-size: 15px;    	
+      line-height: 1.45;    	
+      color: #000;  	
+    }    	
     
     .head-info__list li 
-    {  	    display: inline-block;  	}  	
+    {  	   
+      display: inline-block;  	
+    }  	
     
     .head-info__list li:last-child
-    {  	    margin-right: 0;  	}  	
+    {  	    
+      margin-right: 0;  	
+    }  	
     
     .head-info__value 
     {  	    
