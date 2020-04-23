@@ -1,0 +1,126 @@
+
+    button {  		outline: none;  	}    
+        #info {  		padding-left: 0;  		padding-right: 0;  	}  	#fp,
+       #fp-0 {  		max-width: 250px;  		padding-left: 15px;  		padding-right: 15px;  	}    	
+       
+    .head-info__list 
+    {  		margin: 0;      list-style-type: none;      float: center;    	font-size: 15px;    	line-height: 1.45;    	color: #000;  	}    	
+    
+    .head-info__list li 
+    {  	    display: inline-block;  	}  	
+    
+    .head-info__list li:last-child
+    {  	    margin-right: 0;  	}  	
+    
+    .head-info__value 
+    {  	    
+      color: rgb(31, 53, 255);  	    
+      margin-right: 5px;  	
+    }    	
+    
+    a.symple__block 
+    {  		
+      display: inline-block;  		
+      border-bottom: none;  		
+      text-align: left;  		
+      font-family: Verdana, Arial, Helvetica, sans-serif;  		
+      font-size: 15px;  	
+    }  	
+    
+    a.symple__block:hover .common-box__body-text 
+    {  		
+      text-decoration: underline;
+    }  	
+        
+    
+    .common-box__body 
+    {  		
+      display: block;  		
+      text-align: left;  	
+      padding: 10px 10px 10px 8px;
+    }  	
+    
+.common-box__body-icon 
+    {  		
+      width: 16px;  		
+      height: 15px;  		
+      max-width: 100%;  		
+      display: inline-block;  		
+      vertical-align: text-top;  	
+      margin-right: 2px;  
+    }  	
+    
+.common-box__body-text 
+    {  		
+      display: inline-block;  		
+      vertical-align: middle;  		
+      color: #e61212;  		
+      line-height: 14px;  		
+      margin-right: 7px;  	
+      
+    }  	
+    
+.common-box__body-button 
+    {  		
+      display: inline-block;  		
+      background-color: #4e9d44;  		
+      color: #fff;  		
+      font-weight: bold;  	
+      border: none;  		
+      padding: 5px 9px 6px 9px;  		
+      cursor: pointer;  
+    }  	
+    
+.common-box__body-button:hover
+      {
+        color:#ffffff  	
+      }    	
+    
+.common-box__heading
+    {  	  
+      font-size: 15px;  	  
+      line-height: 1.45;  	  
+      color: #000000;  	
+    }    	
+    
+@media(max-width: 250px) 
+    {  		
+.head-info__list 
+      {  			
+        float: none;  			
+        padding: 0;  		
+      }  		
+      
+a.symple__block 
+      {  			
+        height: auto;  			
+        text-align: center;  			
+        margin-bottom: 10px;  		
+              
+      }  
+
+.common-box__body 
+      {  			
+        text-align: center;  			
+        display: block;  		
+      }  		
+      
+      .common-box__body-icon 
+      {
+        margin-bottom: 8px;  			
+        vertical-align: middle;  	
+      }  		
+      
+      .common-box__body-text 
+      {  			
+        margin-bottom: 8px;  	
+      }  	
+    }   
+          @media(max-width: 250px) 
+      {    		
+          
+        .head-info__list li 
+        {  			
+          display: block;  		
+        }  	
+      }	
